@@ -18,7 +18,7 @@ import sys
 import PySimpleGUI as psg
 
 def main(args):
-    psg.theme("Dark2")
+    psg.theme("DarkBlue11")
 
     layout = [ [psg.Text("IT WILL BE A WASTELAND!!!")],
                [psg.Text("Enter the name:"), psg.InputText()],
@@ -33,4 +33,4 @@ def main(args):
         print(f"This is a joke, {values[0]}!!!")
 
 if __name__ == "__main__":
-    main(sys.argv)
+    sys.exit(main(sys.argv))
